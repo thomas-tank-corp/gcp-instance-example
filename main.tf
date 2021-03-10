@@ -10,7 +10,7 @@ resource "google_compute_instance" "default" {
   machine_type = var.machine_type
   zone         = "europe-west2-a"
 
-  tags = ["test", "git"]
+  tags = ["test", "git", "app"]
 
   boot_disk {
     initialize_params {
